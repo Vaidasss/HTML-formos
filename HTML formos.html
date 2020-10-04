@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<title>HTML Formos</title>
+</head>
+<body>
+
+<form>
+ <fieldset>
+   <legend>HTML FORMS</legend>
+
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="fname" placeholder="Your name"><br><br>
+
+    <label for="surname">Surname:</label><br>
+    <input type="text" id="surname" name="surname" placeholder="Your surname"><br><br>
+  
+
+   <label for="email">Email:</label><br>
+   <input type="email" name="email" placeholder="Your email"><br><br>
+
+   <label for="mobile">Mobile:</label><br>
+   <input type="number" name="number" placeholder="+370">
+   <br><br>
+
+   <label for="age">Age:</label><br>
+   <input type="text" name="age"><br><br>
+
+   <label for="Favorite food">Favorite food:</label><br>
+    <form action="drop-down">
+    <select name="food" id="food">
+    <option value="Meat">Meat</option>
+    <option value="Bread">Bread</option>
+    <option value="Milk">Milk</option>
+    <option value="Fish">Fish</option>
+  </select>
+  <br><br>
+  </form>
+ 
+   <form>
+   	<p>Gender:</p>
+   	<label for="Gender">Male:</label><br>
+    <input type="radio" name="gender" value="male">
+    <br>
+
+    <label for="Gender">Female:</label><br>
+    <input type="radio" name="gender" value="female">
+   </form><br>
+
+   <form>
+   <input type="file" id="myfile" name="myfile"><br><br>
+   </form><br>
+
+
+   <form>
+   <label for="date">Date:</label><br>
+   <input type="date" id="date" name="date">
+   </form><br>
+
+   <form>
+   	<p>Enter your message:</p>
+    <textarea type="textarea" name="message" form="usrform" rows="10" cols="50" placeholder="Message..."></textarea>
+   </form>
+   <br>
+
+
+   <button type="reset">reset</button>
+
+
+   <button type="submit">submit</button>
+
+   
+   </fieldset>
+</form>
+
+</body>
+</html>
